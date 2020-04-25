@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>tic - tac - toe</title>
+</head>
+<body>
+    <div class="bgrn">
+        <img class="gmbr" src="img/n5T6vq.jpg" alt="begron">
+    </div>
+
+    <button data-story-target = "#story">Back Story</button>
+   <div class = 'story' id = 'story'>
+       <div class = 'story-header'>
+        <div class="title">Assassin's and Templar's</div>
+        <button data-close-button class="close-button">&times;</button>
+       </div>
+       <div class = 'story-body'>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, esse quibusdam. Ducimus repellat dignissimos veniam inventore necessitatibus voluptas facilis, delectus officia omnis distinctio animi autem eveniet quo aliquam. Consequuntur, exercitationem.
+       </div>
+   </div>
+   <div id="overlay"></div>
+
+
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+   <div class="win-message" id="winMessage">
+       <div data-win-message-text></div>
+       <button id="restartButton">Restart</button>
+   </div>
+</body>
+</html>
